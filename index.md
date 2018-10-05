@@ -3,14 +3,15 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: landing
+title: The Portfolio of Chris Barnes
 ---
 
-# Current projects
+# Doing
 
 - [Lets Read](http://letsreadapp.com)
 - [SoderList](https://itunes.apple.com/us/app/soderlist-app/id1236165434?mt=8)
 
-# Past Projects
+# Done
 - [Buzz Msg](http://buzzmsg.com/)
 - [Square Feet Studio](http://squarefeetstudio.com/)
 - [Karastan Designers](http://karastandesigners.com/)
@@ -20,13 +21,15 @@ layout: landing
 - [Kanga](http://www.graemenelson.com/#/kanga/)
 - [Scraffle](http://www.graemenelson.com/#/scraffle/)
 
-# Contact Me
+# Info
 - [Github](https://github.com/barnesy)
 - [Email](mailto:chris@barnesy.me)
 - [Resume](https://docs.google.com/document/d/18IeVpr1ymihn4pbRIYhv9esCQD9xk4G8e0kYhpv5YUk/edit?usp=sharing)
 - [LinkedIn](https://www.linkedin.com/in/iambarnesy/)
 - [Instagram](http://instagram.com/iambarnesy)
 
+# Mood
+🤔
 
 
 <!-- {% for page in site.pages %}

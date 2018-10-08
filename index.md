@@ -6,43 +6,34 @@ layout: landing
 title: The Portfolio of Chris Barnes
 ---
 
-# Doing
+## UX & Process
+{% for post in site.posts %}
 
+- [Building a Family Network]({{post.url}})
+
+{% endfor %}
+
+## Projects
 - [Lets Read](http://letsreadapp.com)
+<i class="devicon-ruby-plain"></i> <i class="devicon-swift-plain"></i>
 - [SoderList](https://itunes.apple.com/us/app/soderlist-app/id1236165434?mt=8)
-
-# Done
+<i class="devicon-swift-plain"></i>
 - [Buzz Msg](http://buzzmsg.com/)
-- [Square Feet Studio](http://squarefeetstudio.com/)
-- [Karastan Designers](http://karastandesigners.com/)
-- [Sidewalk Radio](http://sidewalkradio.com/)
-- [Whitewave](https://www.whitewave.com/)
+<i class="devicon-swift-plain"></i> <i class="devicon-javascript-plain"></i>
+- [SQFT Studio](http://squarefeetstudio.com/)
+<i class="devicon-php-plain"></i> <i class="devicon-nodejs-plain"></i> <i class="devicon-javascript-plain"></i>
+- [Karastan](http://karastandesigners.com/)
+<i class="devicon-ruby-plain"></i>
 - [LVLCam](http://www.graemenelson.com/#/test/)
+<i class="devicon-swift-plain"></i>
 - [Kanga](http://www.graemenelson.com/#/kanga/)
+<i class="devicon-ruby-plain"></i> <i class="devicon-swift-plain"></i>
 - [Scraffle](http://www.graemenelson.com/#/scraffle/)
+<i class="devicon-nodejs-plain"></i> <i class="devicon-swift-plain"></i>
 
-# Info
+## Info
 - [Github](https://github.com/barnesy)
 - [Email](mailto:chris@barnesy.me)
 - [Resume](https://docs.google.com/document/d/18IeVpr1ymihn4pbRIYhv9esCQD9xk4G8e0kYhpv5YUk/edit?usp=sharing)
 - [LinkedIn](https://www.linkedin.com/in/iambarnesy/)
 - [Instagram](http://instagram.com/iambarnesy)
-
-# Mood
-🤔
-
-
-<!-- {% for page in site.pages %}
-
-  {% if page.images %}
-
-    <a href="{{page.url}}">
-      <img class="image" width="100%" src="{{page.mainImage}}" alt="{{page.title}}" />
-    </a>
-
-  {% for image in page.images %}
-  {% endfor %}
-
-  {% endif %}
-
-{% endfor %} -->

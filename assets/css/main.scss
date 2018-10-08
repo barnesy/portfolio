@@ -3,24 +3,41 @@
 ---
 
 // start content
+
+$blue: rgb(43, 162, 221);
+
+@font-face {
+    font-family: Fatty;
+    src: url("/assets/fonts/Fatty.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Handsy;
+    src: url("/assets/fonts/Handsy.otf") format("opentype");
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Rubik', sans-serif;
+  font-family: Handsy, 'Rubik', sans-serif;
   font-weight: bold;
 }
 
 #container {
-  display: flex;
-  flex-flow: row wrap;
   justify-content: space-around;
   z-index: 1;
   position: relative;
-  padding: 3em 0;
+  margin: 60px;
 
-  img{
-    margin: 40px 0;
+  &.post{
+    text-align: center;
+
+    p{
+      text-align: center;
+      margin: 160px 0 160px;
+    }
   }
+
 }
 
 #canvas {
@@ -31,99 +48,79 @@ body {
 }
 
 h1, h2, h3, h4, h5, ul{
-  color: rgba(0,0,0,0.3);
-  font-weight: 500;
+  font-weight: bold;
   margin-bottom: 0;
-  text-shadow: 1px -1px 0px rgba(255, 255, 255, 0.1);
+  color: black;
 }
 
 h1 {
-  width: 100%;
-  text-align: center;
   background: none;
-  font-size: 1.2em;
-  margin-top: 1em;
+  font-size: 5em;
+  margin: 30px 0 10px;
+  font-family: Handsy;
+  text-transform: uppercase;
 }
 
 h2 {
-  font-size: 1em;
+  font-size: 3em;
   margin-bottom: 0;
+  font-family: Handsy;
 }
 
 ul {
+  margin:0;
   font-weight: normal;
   text-decoration: none;
   list-style: none;
-  text-align: center;
   padding: 0;
-  margin: 0.5em;
-  line-height: 1.75em;
-  font-size: 1.2em;
-  text-shadow: 1px -1px 0px rgba(255, 255, 255, 0.1);
+  max-width: 70%;
+  line-height: 2em;
+  font-size: 1.25em;
+  column-count: 3;
+  color: black;
+  text-transform: uppercase;
+
+  li{
+    i {
+      font-size: 0.6em;
+      display: none;
+    }
+  }
 }
 
 a{
-  color: #9DB877;
+  color: black;
   text-decoration: none;
+  font-weight: bold;
 
   &:hover {
-    color: rgba(0, 0, 0, 0.4);
+    color: $blue;
   }
 }
 
 .logo{
-  background: url(/assets/img/barnesy-logo.png);
-  background-size: contain;
-  width: 100%;
-  height: 60px;
-  margin-bottom: 40px;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  &.silver {
-    background-image: url(/assets/img/barnesy-logo-silver.png);
-  }
-}
-
-a.link{
-  position: fixed;
-  width: 100%;
-  font-size: 7em;
-  color: white;
-  opacity: 0.7;
-  top: 50%;
-  left: 0;
-  text-align: center;
-  text-decoration: none;
-  font-weight: bolder;
-  transform: translateY(-50%);
-  transform: rotate(-15deg);
-
-  &:hover{
-    color: red;
-    opacity: 1;
-  }
-}
-
-.page{
-  width: 80%;
+  width: auto;
 }
 
 img {
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 p {
   font-size: 1.5em;
-  font-weight: normal;
-  color: white;
+  font-weight: 600;
   flex: 0 0 100%;
-  text-align: center;
-  margin-bottom: 3em;
-  width: 100%;
-  color: rgba(0,0,0,0.3);
-  // text-shadow: 1px -1px 1px white;
+  color: $blue;
+  line-height: 1.5em;
+  margin: 0 20px auto;
+  text-transform: uppercase;
+}
+
+blockquote {
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 .mainTitle {

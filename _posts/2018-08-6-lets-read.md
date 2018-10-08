@@ -16,26 +16,32 @@ images: [
 link: https://letsreadapp.com
 ---
 
-> Ok, let's eat an elephant! When starting a large task
-> it's necessary to the tasks into bit size pieces.
+> Ideas usually start with some friendly banter and a sketch. Below is some select visual thinking that wen't into making [Let's Read](https://letsreadapp.com).
 
 ![alt text](/assets/img/projects/lets-read/lets-read-accounts.png)
 
-> This is a neat note about something.
+> What's the password for Instagram? When do we talk about Steve?
+> Creating a "Where you say what when" map keeps communication tight.
 
 ![alt text](/assets/img/projects/lets-read/lets-read-systems.png)
 
-![alt text](/assets/img/projects/lets-read/lets-read-invitations.png)
+> Rules for family invitations were fairly complicated. Mapping out the different states helped us design a system to make the UX simple.
 
 ![alt text](/assets/img/projects/lets-read/lets-read-invitations-flow.png)
 
-> This is a neat note about something.
+> Notes happen before or during meetings. Notes turn into tasks. Notes are posted to Slack for further conversation.
 
 ![alt text](/assets/img/projects/lets-read/lets-read-notes.png)
 
+> No one was using the invitation system, so we brought the family higher up in the hierarchy.
+
 ![alt text](/assets/img/projects/lets-read/lets-read-family.png)
 
+> Some early sketches of our data models.
+
 ![alt text](/assets/img/projects/lets-read/lets-read-datas.png)
+
+> Add a whole lot of effort and mistakes, sprinkle in some refactors and walla! 
 
 ![alt text](/assets/img/projects/lets-read/lets-read-screens.jpg)
 

@@ -1,19 +1,10 @@
 ---
 layout: post
-title:  "Let's Read"
+title:  "A Family Network"
 category: platforms
-mainImage: /assets/img/projects/lets-read/lets-read-collage.jpg
-images: [
-          /assets/img/projects/lets-read/lets-read-accounts.png,
-          /assets/img/projects/lets-read/lets-read-systems.png,
-          /assets/img/projects/lets-read/lets-read-invitations.png,
-          /assets/img/projects/lets-read/lets-read-invitations-flow.png,
-          /assets/img/projects/lets-read/lets-read-notes.png,
-          /assets/img/projects/lets-read/lets-read-family.png,
-          /assets/img/projects/lets-read/lets-read-datas.png,
-          /assets/img/projects/lets-read/lets-read-screens.jpg
-        ]
-link: https://letsreadapp.com
+mainImage: /assets/img/projects/buzz-msg/buzz-msg-screens.jpg
+
+link: https://buzzmsg.com
 ---
 
 > Ideas usually start with some friendly banter and a sketch. Below is some select visual thinking that wen't into making [Let's Read](https://letsreadapp.com).

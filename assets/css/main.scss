@@ -6,6 +6,8 @@
 
 $blue: rgb(43, 162, 221);
 
+$small-screen: 800px;
+
 @font-face {
     font-family: Fatty;
     src: url("/assets/fonts/Fatty.otf") format("opentype");
@@ -21,21 +23,37 @@ body {
   padding: 0;
   font-family: Handsy, 'Rubik', sans-serif;
   font-weight: bold;
-  letter-spacing: 1px;
+  // letter-spacing: 1px;
+  @media (min-width: $small-screen) {
+    margin: 60px;
+  }
+
 }
 
 #container {
   justify-content: space-around;
   z-index: 1;
   position: relative;
-  margin: 60px;
+  max-width: 1400px;
+  margin: 0 auto;
+  text-align: center;
+
+  @media (min-width: $small-screen) {
+    text-align: left;
+  }
 
   &.post{
-    text-align: center;
+    h1{
+      text-align: center;
+    }
 
     p{
       text-align: center;
-      margin: 160px 0 160px;
+      margin: 80px 0 80px;
+
+      @media (min-width: $small-screen) {
+        margin: 160px 0 160px;
+      }
     }
   }
 
@@ -52,14 +70,18 @@ h1, h2, h3, h4, h5, ul{
   font-weight: bold;
   margin-bottom: 0;
   color: black;
-  text-transform: uppercase;
+  // text-transform: uppercase;
 }
 
 h1 {
   background: none;
-  font-size: 5em;
-  margin: 30px 0 10px;
+  font-size: 3em;
+  margin: 30px 30px 10px;
   font-family: Handsy;
+
+  @media (min-width: $small-screen) {
+    font-size: 5em;
+  }
 }
 
 h2 {
@@ -74,14 +96,23 @@ ul {
   text-decoration: none;
   list-style: none;
   padding: 0;
-  max-width: 80%;
   line-height: 2em;
   font-size: 1.25em;
-  column-count: 3;
   color: black;
   text-transform: uppercase;
+  margin-bottom: 30px;
+
+  @media (min-width: $small-screen) {
+    column-count: 3;
+    max-width: 80%;
+  }
 
   li{
+    p{
+      font-size: inherit;
+      padding: 0;
+      margin: 0;
+    }
     i {
       font-size: 0.6em;
       display: none;
@@ -107,6 +138,7 @@ img {
   margin: 0;
   padding: 0;
   width: 100%;
+  display: block;
 }
 
 p {
@@ -116,20 +148,30 @@ p {
   color: $blue;
   line-height: 1.75em;
   margin: 0 20px auto;
-  // text-transform: uppercase;
 }
 
 .back-btn {
-  font-size: 5em;
   position: fixed;
   text-align: left;
-  left: 10%;
-  top: 60px;
+
+  font-size: 3em;
+  left: 30px;
+  top: 30px;
+
+  @media (min-width: $small-screen) {
+      font-size: 5em;
+      left: 60px;
+      top: 60px;
+  }
 }
 
 blockquote {
-  max-width: 550px;
-  margin: 0 auto;
+  margin: 30px;
+
+  @media (min-width: $small-screen) {
+    max-width: 550px;
+    margin: 0 auto;
+  }
 }
 
 .mainTitle {

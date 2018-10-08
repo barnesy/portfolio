@@ -9,7 +9,7 @@ title: The Portfolio of Chris Barnes
 ## UX & Process
 {% for post in site.posts %}
 
-- [Building a Family Network]({{post.url}})
+- [{{post.title}}]({{post.url}})
 
 {% endfor %}
 
@@ -24,11 +24,11 @@ title: The Portfolio of Chris Barnes
 <i class="devicon-php-plain"></i> <i class="devicon-nodejs-plain"></i> <i class="devicon-javascript-plain"></i>
 - [Karastan](http://karastandesigners.com/)
 <i class="devicon-ruby-plain"></i>
-- [LVLCam](http://www.graemenelson.com/#/test/)
+- [LVLCam](/lvlcam.html)
 <i class="devicon-swift-plain"></i>
-- [Kanga](http://www.graemenelson.com/#/kanga/)
+- [Kanga](/kanga.html)
 <i class="devicon-ruby-plain"></i> <i class="devicon-swift-plain"></i>
-- [Scraffle](http://www.graemenelson.com/#/scraffle/)
+- [Scraffle](/scraffle.html)
 <i class="devicon-nodejs-plain"></i> <i class="devicon-swift-plain"></i>
 
 ## Info

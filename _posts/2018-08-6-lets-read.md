@@ -41,7 +41,11 @@ link: https://letsreadapp.com
 
 ![alt text](/assets/img/projects/lets-read/lets-read-datas.png)
 
-> Add a whole lot of effort and mistakes, sprinkle in some refactors and walla! 
+> A doodle.
+
+![alt text](/assets/img/projects/lets-read/lets-read-doodle.png)
+
+> Add a whole lot of effort and mistakes, sprinkle in some refactors and walla!
 
 ![alt text](/assets/img/projects/lets-read/lets-read-screens.jpg)
 

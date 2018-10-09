@@ -18,15 +18,15 @@ title: Chris Barnes
 <i class="devicon-php-plain"></i> <i class="devicon-nodejs-plain"></i> <i class="devicon-javascript-plain"></i>
 - [Karastan](http://karastandesigners.com/)
 <i class="devicon-ruby-plain"></i>
-- [LVLCam](/lvlcam.html)
+- [LVLCam](/lvlcam)
 <i class="devicon-swift-plain"></i>
-- [Kanga](/kanga.html)
+- [Kanga](/kanga)
 <i class="devicon-ruby-plain"></i> <i class="devicon-swift-plain"></i>
-- [Scraffle](/scraffle.html)
+- [Scraffle](/scraffle)
 <i class="devicon-nodejs-plain"></i> <i class="devicon-swift-plain"></i>
 
 ## Info
 - [Email](mailto:chris@barnesy.me)
-- [Resume](/resume.html)
+- [Resume](/résumé)
 - [LinkedIn](https://www.linkedin.com/in/iambarnesy/)
 - [Instagram](http://instagram.com/iambarnesy)

@@ -2,7 +2,7 @@
 layout: page
 title: Resume
 ---
-# Resume
+# résumé
 
 ## Chris Barnes
 Innately curious and extremely driven creator with 12 years of experience, and an unusual combination of talent in both creative design and complex programming. Relationship oriented team leader. Lover of art and technology.

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "LVLCam"
+title:  "lvlcam"
 category: software
 color: black
 mainImage: /assets/img/projects/lvlcam/lvlcam-top.png

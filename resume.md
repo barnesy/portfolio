@@ -52,13 +52,13 @@ Innately curious and extremely driven creator with 12 years of experience, and a
 ### CTO/CEO at 4x4 Studios  
 2017 – Present
 
-I started this company to create a reading platform for families. The focus of 4x4 Studios is on family technology. We recently launched version 1.0 of our product on the App Store which was featured by Apple in the "Apps We Love" category.
+I started this company to create a reading platform for families. The focus of 4x4 Studios is on family technology. We recently launched version 1.0 of our product on the App Store which was featured by Apple in the "New Apps We Love" category.
 
 
 ### CEO, Full Stack Engineer, UX Designer at DANIEL  
 Nov 2010 – Present
 
-I created a client services business with a team of 5 Full-Stack Developers. We built technology for Atlanta based startups and creative agencies.   
+I created a client services business with a team of Full-Stack Developers. We built technology for Atlanta based startups and creative agencies.   
 
 ### Senior Full-Stack Developer at The Supergroup
 2008 – 2010  

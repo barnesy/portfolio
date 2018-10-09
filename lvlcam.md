@@ -2,6 +2,7 @@
 layout: post
 title:  "LVLCam"
 category: software
+color: black
 mainImage: /assets/img/projects/lvlcam/lvlcam-top.png
 images: [
           /assets/img/projects/lvlcam/lvlcam-top.jpg,
@@ -13,5 +14,7 @@ images: [
           /assets/img/projects/lvlcam/lvlcam-collage.jpg
         ]
 ---
+
+>LVLCam was an internal project we did for fun. From start to finish the app took 1 month. LVLCam was featured by Apple in several categories and was downloaded over 100K times.
 
 {% include images.html content=page.images%}

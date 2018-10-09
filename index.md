@@ -1,17 +1,11 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: landing
-title: The Portfolio of Chris Barnes
+title: Chris Barnes
 ---
 
 ## UX & Process
 {% for post in site.posts %}
-
-- [{{post.title}}]({{post.url}})
-
-{% endfor %}
+- [{{post.title}}]({{post.url}}){% endfor %}
 
 ## Projects
 - [Lets Read](http://letsreadapp.com)
@@ -32,8 +26,7 @@ title: The Portfolio of Chris Barnes
 <i class="devicon-nodejs-plain"></i> <i class="devicon-swift-plain"></i>
 
 ## Info
-- [Github](https://github.com/barnesy)
 - [Email](mailto:chris@barnesy.me)
-- [Resume](https://docs.google.com/document/d/18IeVpr1ymihn4pbRIYhv9esCQD9xk4G8e0kYhpv5YUk/edit?usp=sharing)
+- [Resume](/resume.html)
 - [LinkedIn](https://www.linkedin.com/in/iambarnesy/)
 - [Instagram](http://instagram.com/iambarnesy)

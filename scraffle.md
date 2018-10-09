@@ -14,4 +14,6 @@ images: [
         ]
 ---
 
+>Scraffle was created as a daily deal application with a gambling bent. Think Groupon mixed with Vegas slots. We built it with a NodeJS backend and native iOS front-end.
+
 {% include images.html content=page.images%}

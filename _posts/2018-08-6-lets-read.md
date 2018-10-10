@@ -31,7 +31,7 @@ link: https://letsreadapp.com
 
 ![alt text](/assets/img/projects/lets-read/lets-read-datas.png)
 
-> Add a whole lot of effort and mistakes, sprinkle in some refactors and walla!
+> Add a whole lot of effort and walla!
 
 ![alt text](/assets/img/projects/lets-read/lets-read-screens.jpg)
 

@@ -39,4 +39,4 @@ Every digital interaction, quantified.
 ![alt text](/assets/img/projects/querator/querator-slides-18.jpg)
 ![alt text](/assets/img/projects/querator/querator-slides-21.jpg)
 
->Never made it passed concept phase, but it was fun to dream.
+>The project never made it passed concept phase, but it was fun to dream.

@@ -11,7 +11,7 @@ link: https://letsreadapp.com
 
 ![alt text](/assets/img/projects/lets-read/lets-read-accounts.png)
 
-> For my own sanity we mapped out our channels so team members knew which ones were right for each task.
+> For the sanity of all I mapped out our channels to streamline communication.
 
 ![alt text](/assets/img/projects/lets-read/lets-read-systems.png)
 
@@ -19,11 +19,11 @@ link: https://letsreadapp.com
 
 ![alt text](/assets/img/projects/lets-read/lets-read-invitations-flow.png)
 
-> Notes happen before or during meetings. Notes turn into tasks. Notes are posted to Slack for further conversation.
+> I take notes to get an idea out of my head as fast as possible so I can revisit it later. I've been using [Paper](https://www.fiftythree.com/paper) to do this.
 
 ![alt text](/assets/img/projects/lets-read/lets-read-notes.png)
 
-> We re-worked the hierarchy to bring more emphasis to the family. This makes invitations much easier to understand.
+> We re-worked our hierarchy to bring more emphasis to the family. This makes invitations much easier to understand.
 
 ![alt text](/assets/img/projects/lets-read/lets-read-family.png)
 

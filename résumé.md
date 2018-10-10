@@ -62,7 +62,7 @@ I started 4x4 to create a reading platform for families. The focus of 4x4 Studio
 
 ### CEO, Full Stack Engineer, UX Designer at DANIEL  
 (Nov 2010 – Present)  
-I created a client services business with a team of five Full-Stack Developers and two Designers. We built technology for Atlanta based startups and creative agencies such as Mohawk Flooring, IHG and Caterpillar.
+I created a client services business with a team of five Full-Stack Developers and two Designers. We built technology for Atlanta based startups and creative agencies such as Mohawk Flooring, IHG and Caterpillar. I got the privilege of helping 3 developers start their careers at DANIEL from scratch. Our beautiful babies went on to work at Razorfish and NCR among others. 
 
 ### Senior Full-Stack Developer at The Supergroup
 (2008 – 2010)  

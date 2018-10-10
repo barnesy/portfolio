@@ -55,10 +55,8 @@ body {
     text-align: left;
   }
 
-  margin-top: 60px;
 
   &.page{
-    margin: 30px;
 
     h1{
       text-align: center;
@@ -80,7 +78,6 @@ body {
   }
 
   &.post{
-    margin-top: 0;
 
     h1{
       text-align: center;
@@ -114,27 +111,27 @@ h1 {
   font-family: Fatty;
   background: none;
   font-size: 3em;
-  margin: 0;
+  margin: 50px 15px;
 
   @media (min-width: $small-screen) {
-    font-size: 5em;
+
+    font-size: 4em;
   }
 }
 
 h2 {
   font-size: 2.5em;
   margin-bottom: 0;
+  margin-top: 0;
   font-family: Handsy;
 }
 
 h3 {
   font-size: 1.5em;
-  margin-top: 30px;
-  margin-bottom: 15px;
+  margin: 15px;
 }
 
 ul {
-  margin:0;
   font-weight: normal;
   text-decoration: none;
   list-style: none;
@@ -143,7 +140,7 @@ ul {
   font-size: 1.25em;
   color: black;
   text-transform: uppercase;
-  margin: 15px 0 45px;
+  margin: 5px 0 45px;
 
   @media (min-width: $small-screen) {
     column-count: 3;
@@ -176,6 +173,7 @@ a{
 
 .logo{
   width: auto;
+  margin-left: 0
 }
 
 img {
@@ -201,10 +199,11 @@ p {
 .back-btn {
   position: fixed;
   text-align: left;
+  font-family: Fatty;
 
   font-size: 3em;
   left: 30px;
-  top: 30px;
+  top: 60px;
 
   @media (min-width: $small-screen) {
       font-size: 5em;

@@ -18,7 +18,7 @@ title: Chris Barnes
 <i class="devicon-php-plain"></i> <i class="devicon-nodejs-plain"></i> <i class="devicon-javascript-plain"></i>
 - [Karastan](http://karastandesigners.com/)
 <i class="devicon-ruby-plain"></i>
-- [LVLCam](/lvlcam)
+- [LVL Cam](/lvlcam)
 <i class="devicon-swift-plain"></i>
 - [Kanga](/kanga)
 <i class="devicon-ruby-plain"></i> <i class="devicon-swift-plain"></i>
@@ -27,6 +27,6 @@ title: Chris Barnes
 
 ## Info
 - [Email](mailto:chris@barnesy.me)
-- [Resume](/résumé)
+- [Résumé](/résumé)
 - [LinkedIn](https://www.linkedin.com/in/iambarnesy/)
 - [Instagram](http://instagram.com/iambarnesy)

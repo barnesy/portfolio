@@ -50,16 +50,13 @@ body {
   z-index: 1;
   position: relative;
   max-width: 1200px;
-  margin: 0 15px;
+  margin: 0;
   text-align: center;
+  margin-top: 60px;
 
   @media (min-width: $small-screen) {
     text-align: left;
     margin: 60px;
-  }
-
-  @media (min-width: 1400px) {
-    margin: 60px auto;
   }
 
   &.page{
@@ -87,6 +84,9 @@ body {
   }
 
   &.post{
+    @media (min-width: 1400px) {
+      margin: 60px auto;
+    }
 
     h1{
       text-align: center;
@@ -136,10 +136,11 @@ h1, h2, h3, h4, h5, ul{
 }
 
 h1 {
-  font-family: Fatty;
+  font-family: Handsy;
   background: none;
   font-size: 2.75em;
-  margin: 60px 15px 45px;
+  margin: 60px 45px 45px;
+  text-transform: uppercase;
 
   @media (min-width: $small-screen) {
     margin: 0 15px 45px;
@@ -149,10 +150,12 @@ h1 {
 
 h2 {
   font-size: 2.5em;
-  margin-bottom: 15px;
-  margin-top: 0;
+  margin: 0 15px 15px 15px;
   line-height: 0.75em;
   font-family: Handsy;
+  @media (min-width: $small-screen) {
+    margin: 0 15px 15px 0;
+  }
 }
 
 h3 {
@@ -231,12 +234,13 @@ p {
 
 .back-btn {
   position: fixed;
-  text-align: left;
-  font-family: Fatty;
-
-  font-size: 3em;
-  left: 30px;
-  top: 60px;
+  font-family: Handsy;
+  font-size: 5em;
+  line-height: 1em;
+  left: 0px;
+  bottom: 0px;
+  min-width: 60px;
+  text-align: center;
 
   @media (min-width: $small-screen) {
       font-size: 5em;

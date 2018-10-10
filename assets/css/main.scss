@@ -267,7 +267,6 @@ p {
 }
 
 .back-btn {
-  display: none;
   position: fixed;
   font-family: Handsy;
   font-size: 5em;
@@ -279,7 +278,6 @@ p {
 
   @media (min-width: $small-screen) {
       font-size: 5em;
-      left: 60px;
       top: 60px;
   }
 }

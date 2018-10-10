@@ -35,4 +35,4 @@ link: https://letsreadapp.com
 
 ![alt text](/assets/img/projects/lets-read/lets-read-screens.jpg)
 
-> Featured by Apple in "New Apps We Love"
+> Featured by Apple in "New Apps We Love".

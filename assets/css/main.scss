@@ -25,7 +25,9 @@ body {
   font-weight: bold;
 
   @media (min-width: $small-screen) {
-    margin: 60px;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
   }
 
   &.black, &.navy{
@@ -47,14 +49,18 @@ body {
   justify-content: space-around;
   z-index: 1;
   position: relative;
-  max-width: 1400px;
-  margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 15px;
   text-align: center;
 
   @media (min-width: $small-screen) {
     text-align: left;
+    margin: 60px;
   }
 
+  @media (min-width: 1400px) {
+    margin: 60px auto;
+  }
 
   &.page{
 
@@ -63,13 +69,16 @@ body {
     }
 
     p {
-      font-size: 1.5em;
+      font-size: 1.25em;
+      color: black;
+      margin-bottom: 30px;
     }
 
     ul{
-      font-size: 1.25em;
+      font-size: 1.15em;
       line-height: 1.25em;
       max-width: 100%;
+      column-gap: 3em;
 
       li{
         margin-bottom: 0.5em;
@@ -94,6 +103,25 @@ body {
   }
 }
 
+#footer{
+  position: relative;
+  z-index: 1;
+  margin: auto auto 0 auto;
+
+  p{
+    font-size: 1em;
+    color: black;
+    text-align: center;
+    margin: 60px 0;
+    width: 100%;
+
+    a {
+      color: $blue;
+    }
+  }
+
+}
+
 #canvas {
   position: fixed;
   top: 0;
@@ -110,25 +138,30 @@ h1, h2, h3, h4, h5, ul{
 h1 {
   font-family: Fatty;
   background: none;
-  font-size: 3em;
-  margin: 50px 15px;
+  font-size: 2.75em;
+  margin: 60px 15px 45px;
 
   @media (min-width: $small-screen) {
-
-    font-size: 4em;
+    margin: 0 15px 45px;
+    font-size: 3.5em;
   }
 }
 
 h2 {
   font-size: 2.5em;
-  margin-bottom: 0;
+  margin-bottom: 15px;
   margin-top: 0;
+  line-height: 0.75em;
   font-family: Handsy;
 }
 
 h3 {
   font-size: 1.5em;
-  margin: 15px;
+  margin: 0 30px;
+
+  @media (min-width: $small-screen) {
+    margin: 0;
+  }
 }
 
 ul {
@@ -136,11 +169,11 @@ ul {
   text-decoration: none;
   list-style: none;
   padding: 0;
-  line-height: 1.75em;
+  line-height: 2em;
   font-size: 1.25em;
   color: black;
   text-transform: uppercase;
-  margin: 5px 0 45px;
+  margin: 0 0 45px;
 
   @media (min-width: $small-screen) {
     column-count: 3;
@@ -192,7 +225,7 @@ p {
 
   @media (min-width: $small-screen) {
     font-size: 2em;
-    margin: auto;
+    margin: 0 auto 30px;
   }
 }
 

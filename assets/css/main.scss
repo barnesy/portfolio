@@ -60,7 +60,7 @@ body {
   }
 
   &.page{
-  font-family: Menlo;
+  // font-family: Menlo;
 
     h1{
       text-align: center;
@@ -71,46 +71,41 @@ body {
     }
 
     h3 {
-      font-size: 1.25em;
+      // font-size: 1.25em;
     }
 
     h4 {
+      font-size: 1.5em;
       margin-top: 20px;
     }
 
     h5{
+      font-size: 1.25em;
       margin:10px 0;
     }
 
     blockquote {
       text-align: center;
       color: black;
-      // font-family: Handsy;
-      p{
-        a{
-          font-weight: normal;
-        }
-      }
     }
 
     p {
-      font-size: 1.1em;
+      font-size: 1.5em;
       color: black;
       margin-bottom: 30px;
       font-weight: normal;
-      line-height: 1.75em;
+      // line-height: 1.75em;
     }
 
     ul{
-      font-size: 1.1em;
+      font-size: 1.25em;
       line-height: 1.5em;
       max-width: 100%;
       column-gap: 3em;
-      font-weight: normal;
       text-transform:none;
 
       li{
-        font-weight: normal;
+        font-weight: bold;
         margin-bottom: 1em;
         line-height: 1.5em;
       }

@@ -2,7 +2,6 @@
 layout: page
 title: Resume
 ---
-# Résumé
 
 ## Chris Barnes
 [chris@barnesy.me](mailto:chris@barnesy.me)  

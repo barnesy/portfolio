@@ -19,7 +19,7 @@ link: https://letsreadapp.com
 
 ![alt text](/assets/img/projects/lets-read/lets-read-invitations-flow.png)
 
-> I take notes to get an idea out of my head as fast as possible so I can revisit it later. I've been using [Paper](https://www.fiftythree.com/paper) to do this.
+> I take notes to get an idea out of my head as fast as possible, so I can revisit it later. I've been using the app [Paper](https://www.fiftythree.com/paper) to do this.
 
 ![alt text](/assets/img/projects/lets-read/lets-read-notes.png)
 

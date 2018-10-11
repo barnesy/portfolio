@@ -80,6 +80,10 @@ body {
     h4 {
       font-size: 1.5em;
       margin: 20px 15px 0;
+
+      @media (min-width: $small-screen) {
+          margin-left: 0;
+      }
     }
 
     h5{
@@ -115,9 +119,6 @@ body {
     @media (min-width: 1400px) {
       margin: 60px auto;
 
-      h4{
-        margin: 20px 0 0;
-      }
     }
   }
 

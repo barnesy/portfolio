@@ -64,9 +64,6 @@ body {
   }
 
   &.page{
-    @media (min-width: 1400px) {
-      margin: 60px auto;
-    }
 
     h1{
       text-align: center;
@@ -82,7 +79,7 @@ body {
 
     h4 {
       font-size: 1.5em;
-      margin-top: 20px;
+      margin: 20px 15px 0;
     }
 
     h5{
@@ -93,6 +90,7 @@ body {
     blockquote {
       text-align: center;
       color: black;
+      margin-bottom: 60px;
     }
 
     p {
@@ -111,6 +109,14 @@ body {
       li{
         margin-bottom: 1em;
         line-height: 1.5em;
+      }
+    }
+
+    @media (min-width: 1400px) {
+      margin: 60px auto;
+
+      h4{
+        margin: 20px 0 0;
       }
     }
   }

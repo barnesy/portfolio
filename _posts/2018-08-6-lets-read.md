@@ -7,7 +7,7 @@ mainImage: /assets/img/projects/buzz-msg/buzz-msg-screens.jpg
 link: https://letsreadapp.com
 ---
 
-> Building a secure robust network is challenging and fun. Here is some of the visual thinking that wen't into making [Let's Read](https://letsreadapp.com).
+> Building a secure robust network is challenging and fun. Here is some of the visual thinking that went into making [Let's Read](https://letsreadapp.com).
 
 ![alt text](/assets/img/projects/lets-read/lets-read-accounts.png)
 

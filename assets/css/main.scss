@@ -64,7 +64,9 @@ body {
   }
 
   &.page{
-  // font-family: Menlo;
+    @media (min-width: 1400px) {
+      margin: 60px auto;
+    }
 
     h1{
       text-align: center;

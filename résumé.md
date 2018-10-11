@@ -3,8 +3,8 @@ layout: page
 title: Resume
 ---
 
-## Chris Barnes
-[chris@barnesy.me](mailto:chris@barnesy.me)  
+# Chris Barnes
+>[chris@barnesy.me](mailto:chris@barnesy.me)  
 [http://barnesy.me](http://barnesy.me)
 
 Innately curious and extremely driven creator with 12 years of experience, and an unusual combination of talent in both creative design and complex programming. Relationship-oriented team leader. Lover of art and technology.  
@@ -64,7 +64,7 @@ I started 4x4 to create a reading platform for families. The focus of 4x4 Studio
 
 #### CEO, Full Stack Engineer, UX Designer at DANIEL  
 ##### (Nov 2010 – Present)  
-I created a client services business with a team of five Full-Stack Developers and two Designers. We built technology for Atlanta based startups and creative agencies such as Mohawk Flooring, IHG and Caterpillar. I had the privilege of helping 4 developers start their careers at DANIEL from scratch. Our beautiful babies went on to work at such companies as Razorfish, NCR and other creative agencies. Some started companies and became successful freelancers.
+I created a client services business with a team of five Full-Stack Developers and two Designers. We built technology for Atlanta based startups and creative agencies such as Mohawk Flooring, IHG and Caterpillar. I had the privilege of helping 4 developers start their careers at DANIEL from scratch. Our beautiful babies went on to work at such companies as Razorfish, NCR, Deloitte and other creative agencies. Some started companies and became successful freelancers.
 
 #### Senior Full-Stack Developer at The Supergroup
 ##### (2008 – 2010)  

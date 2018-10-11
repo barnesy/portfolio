@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A Distopian Social Graph"
+title:  "A Dystopian Social Graph"
 category: user-experience
 color: navy
 mainImage: /assets/img/projects/buzz-msg/buzz-msg-screens.jpg

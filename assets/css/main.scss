@@ -18,11 +18,15 @@ $small-screen: 800px;
     src: url("/assets/fonts/Handsy.otf") format("opentype");
 }
 
+@font-face {
+    font-family: Handsy-Bold;
+    src: url("/assets/fonts/Handsy-Bold.otf") format("opentype");
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: Handsy, Helvetica, sans-serif;
-  font-weight: bold;
 
   @media (min-width: $small-screen) {
     display: flex;
@@ -93,8 +97,6 @@ body {
       font-size: 1.5em;
       color: black;
       margin-bottom: 30px;
-      font-weight: normal;
-      // line-height: 1.75em;
     }
 
     ul{
@@ -105,7 +107,6 @@ body {
       text-transform:none;
 
       li{
-        font-weight: normal;
         margin-bottom: 1em;
         line-height: 1.5em;
       }
@@ -165,7 +166,7 @@ h1, h2, h3, h4, h5, ul{
 }
 
 h1 {
-  font-family: Handsy;
+  font-family: Handsy-Bold;
   background: none;
   font-size: 2.75em;
   margin: 60px 45px 45px;
@@ -178,22 +179,27 @@ h1 {
 }
 
 h2 {
+  font-family: Handsy-Bold;
   font-size: 2.5em;
   margin: 0 15px 15px 15px;
   line-height: 0.75em;
-  font-family: Handsy;
   @media (min-width: $small-screen) {
     margin: 0 15px 15px 0;
   }
 }
 
 h3 {
+  font-family: Handsy-Bold;
   font-size: 1.5em;
   margin: 0 30px;
 
   @media (min-width: $small-screen) {
     margin: 0;
   }
+}
+
+h4 {
+  font-family: Handsy-Bold;
 }
 
 ul {
@@ -251,9 +257,9 @@ img {
 p {
   font-size: 1.5em;
   flex: 0 0 100%;
-  // color: $blue;
   line-height: 1.5em;
   margin: 0 20px auto;
+  font-weight: bold;
 
   @media (min-width: $small-screen) {
     font-size: 2em;

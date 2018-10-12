@@ -24,7 +24,7 @@ title: Chris Barnes
 <i class="devicon-nodejs-plain"></i> <i class="devicon-swift-plain"></i>
 
 ## Info
-- [Email](mailto:chris@barnesy.me)
 - [Résumé](/résumé)
 - [LinkedIn](https://www.linkedin.com/in/iambarnesy/)
 - [Instagram](http://instagram.com/iambarnesy)
+- [Email](mailto:chris@barnesy.me)

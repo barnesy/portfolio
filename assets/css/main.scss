@@ -118,6 +118,11 @@ body {
       line-height: 2em;
       color: black;
       margin-bottom: 60px;
+
+      @media (min-width: $small-screen) {
+        text-align: left;
+      }
+
       a{
         font-size: 0.8em;
       }
@@ -155,11 +160,11 @@ body {
     }
 
     p{
-      text-align: center;
-      margin: 80px 0 80px;
+      margin: 60px auto;
+      width: 100%;
 
       @media (min-width: $small-screen) {
-        margin: 160px 0 160px;
+        margin: 120px 0 120px;
       }
     }
   }
@@ -173,9 +178,9 @@ body {
   p{
     font-size: 1em;
     color: black;
-    text-align: center;
     margin: 60px 0;
     width: 100%;
+    text-align: center;
 
     a {
       color: $blue;
@@ -201,7 +206,7 @@ h1 {
   font-family: Handsy-Bold;
   background: none;
   font-size: 2.75em;
-  margin: 60px 45px 45px;
+  margin: 60px 45px;
 
   @media (min-width: $small-screen) {
     margin: 0 0 45px;
@@ -291,6 +296,8 @@ p {
   line-height: 1.5em;
   margin: 0 20px auto;
   font-weight: bold;
+  text-align: center;
+  float: left;
 
   @media (min-width: $small-screen) {
     font-size: 2em;
@@ -315,7 +322,7 @@ p {
 }
 
 blockquote {
-  margin: 30px;
+  margin:0 30px;
 
   @media (min-width: $small-screen) {
     max-width: 650px;

@@ -23,7 +23,7 @@ title: Chris Barnes
 - [Scraffle](/scraffle)
 <i class="devicon-nodejs-plain"></i> <i class="devicon-swift-plain"></i>
 
-## Info
+## Hire Me
 - [Email](mailto:chris@barnesy.me)
 - [Résumé](/résumé)
 - [LinkedIn](https://www.linkedin.com/in/iambarnesy/)

@@ -4,10 +4,9 @@ title: Resume
 ---
 
 # Chris Barnes
->[chris@barnesy.me](mailto:chris@barnesy.me)  
-[http://barnesy.me](http://barnesy.me)
 
 Innately curious and extremely driven creator with 12 years of experience, and an unusual combination of talent in both creative design and complex programming. Relationship-oriented team leader. Lover of art and technology.  
+[chris@barnesy.me](mailto:chris@barnesy.me) /  [www.barnesy.me](http://barnesy.me)
 
 ## UX Design
 - Creating User Flows

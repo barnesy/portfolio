@@ -16,8 +16,6 @@ title: Chris Barnes
 <i class="devicon-swift-plain"></i> <i class="devicon-javascript-plain"></i>
 - [SQFT Studio](http://squarefeetstudio.com/)
 <i class="devicon-php-plain"></i> <i class="devicon-nodejs-plain"></i> <i class="devicon-javascript-plain"></i>
-- [Karastan](http://karastandesigners.com/)
-<i class="devicon-ruby-plain"></i>
 - [LVL Cam](/lvlcam)
 <i class="devicon-swift-plain"></i>
 - [Kanga](/kanga)

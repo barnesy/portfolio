@@ -4,12 +4,8 @@ title: Mailchimp Cover Letter
 ---
 
 # Chris Barnes
->[chris@barnesy.me](mailto:chris@barnesy.me)  
-[http://barnesy.me](http://barnesy.me)  
-770-757-2303
 
-
-October 11, 2018
+[chris@barnesy.me](mailto:chris@barnesy.me) / [www.barnesy.me](http://barnesy.me)  
 
 Dear Mailchimp,
 

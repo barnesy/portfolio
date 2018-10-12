@@ -66,7 +66,22 @@ body {
   &.page{
 
     h1{
-      text-align: center;
+      color: black;
+      // -webkit-animation:colorchange 60s infinite alternate;
+    }
+
+    @-webkit-keyframes colorchange {
+      0% { color: lightgray; }
+      10% { color: black; }
+      20% { color: white; }
+      30% { color: lightgreen; }
+      40% { color: black; }
+      50% { color: lightgray; }
+      60% { color: pink; }
+      70% { color: black; }
+      80% { color: gray; }
+      90% { color: lightgray; }
+      100% { color: pink; }
     }
 
     h2 {
@@ -74,8 +89,9 @@ body {
     }
 
     h4 {
-      font-size: 1.5em;
+      font-size: 1em;
       margin: 20px 15px 0;
+      font-family: Menlo, monospace;
 
       @media (min-width: $small-screen) {
           margin-left: 0;
@@ -83,20 +99,27 @@ body {
     }
 
     h5{
-      font-size: 1.25em;
+      font-family: Menlo, monospace;
+      font-size: 0.75em;
       margin:10px 0;
     }
 
     blockquote {
-      text-align: center;
       color: black;
-      margin-bottom: 60px;
+      margin: 120px auto;
+      margin-left: 0;
     }
 
     p {
-      font-size: 1.5em;
+      font-family: Menlo, monospace;
+      font-weight: normal;
+      font-size: 1em;
+      line-height: 2em;
       color: black;
-      margin-bottom: 30px;
+      margin-bottom: 60px;
+      a{
+        font-size: 0.8em;
+      }
     }
 
     ul{
@@ -104,11 +127,14 @@ body {
       line-height: 1.5em;
       max-width: 100%;
       column-gap: 3em;
-      text-transform:none;
+      text-transform: none;
 
       li{
+        font-size: 0.75em;
         margin-bottom: 1em;
-        line-height: 1.5em;
+        line-height: 2em;
+        font-weight: normal;
+        font-family: Menlo, monospace;
       }
     }
 

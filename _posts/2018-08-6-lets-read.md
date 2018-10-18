@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A Family Network"
-category: user-experience
+category: UX & Process
 mainImage: /assets/img/projects/buzz-msg/buzz-msg-screens.jpg
 
 link: https://letsreadapp.com

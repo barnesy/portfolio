@@ -3,9 +3,11 @@ layout: landing
 title: Chris Barnes
 ---
 
-## UX & Process
-{% for post in site.posts %}
+{% for category in site.categories %}
+## {{ category[0] }}
+{% for post in category[1] %}
 - [{{post.title}}]({{post.url}}){% endfor %}
+{% endfor %}
 
 ## Projects
 - [Lets Read](http://letsreadapp.com)

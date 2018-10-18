@@ -2,26 +2,8 @@
 
 ---
 
-// start content
-
-$blue: rgb(43, 162, 221);
-
-$small-screen: 800px;
-
-@font-face {
-    font-family: Fatty;
-    src: url("/assets/fonts/Fatty.otf") format("opentype");
-}
-
-@font-face {
-    font-family: Handsy;
-    src: url("/assets/fonts/Handsy.otf") format("opentype");
-}
-
-@font-face {
-    font-family: Handsy-Bold;
-    src: url("/assets/fonts/Handsy-Bold.otf") format("opentype");
-}
+@import 'fonts';
+@import 'variables';
 
 body {
   margin: 0;
@@ -66,8 +48,8 @@ body {
   &.page{
 
     h1{
-      color: black;
-      -webkit-animation:colorchange 60s infinite alternate;
+      color: white;
+      -webkit-animation:colorchange 90s infinite alternate;
     }
 
     @-webkit-keyframes colorchange {
@@ -118,6 +100,7 @@ body {
       line-height: 2em;
       color: black;
       margin-bottom: 60px;
+      float: none;
 
       @media (min-width: $small-screen) {
         text-align: left;
@@ -298,6 +281,11 @@ p {
   font-weight: bold;
   text-align: center;
   float: left;
+
+  a{
+    color: $red;
+    font-family: Handsy-Bold;
+  }
 
   @media (min-width: $small-screen) {
     font-size: 2em;

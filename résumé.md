@@ -49,12 +49,12 @@ Innately curious and extremely driven creator with 12 years of experience, and a
 - Photoshop
 - Sketch
 - Illustrator
-- Premiere
-- After Effects
-- Cinema 4D
-- SketchUp
 
 ## Professional Experience  
+
+#### Design Tech Lead at CallRail
+##### (Dec 2018 – Present)  
+I was hired to build out a development team for CallRail's marketing website and supporting technologies. Over the first year we focused on replacing the existing Wordpress website that had become bloated and overgrown with a streamlined modern framework. During my time at CallRail I hired and organized a highly functioning team of developers/designers, re-architected the entire marketing tech stack and data pipeline, and developed a pattern library to speed up the publishing and deployment of online content. 
 
 #### CTO/CEO at 4x4 Studios  
 ##### (2017 – Present)  

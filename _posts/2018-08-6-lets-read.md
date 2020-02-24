@@ -3,8 +3,6 @@ layout: post
 title:  "A Family Network"
 category: UX & Process
 mainImage: /assets/img/projects/buzz-msg/buzz-msg-screens.jpg
-
-link: https://letsreadapp.com
 ---
 
 > Building a secure robust network is challenging and fun. Here is some of the visual thinking that went into making [Let's Read](https://letsreadapp.com).

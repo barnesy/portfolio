@@ -11,19 +11,10 @@ title: Chris Barnes
 
 ## Projects
 - [Lets Read](http://letsreadapp.com)
-<i class="devicon-ruby-plain"></i> <i class="devicon-swift-plain"></i>
 - [SoderList](https://itunes.apple.com/us/app/soderlist-app/id1236165434?mt=8)
-<i class="devicon-swift-plain"></i>
-- [Buzz Msg](http://buzzmsg.com/)
-<i class="devicon-swift-plain"></i> <i class="devicon-javascript-plain"></i>
-- [SQFT Studio](http://squarefeetstudio.com/)
-<i class="devicon-php-plain"></i> <i class="devicon-nodejs-plain"></i> <i class="devicon-javascript-plain"></i>
 - [LVL Cam](/lvlcam)
-<i class="devicon-swift-plain"></i>
 - [Kanga](/kanga)
-<i class="devicon-ruby-plain"></i> <i class="devicon-swift-plain"></i>
 - [Scraffle](/scraffle)
-<i class="devicon-nodejs-plain"></i> <i class="devicon-swift-plain"></i>
 
 ## Info
 - [Résumé](/résumé)

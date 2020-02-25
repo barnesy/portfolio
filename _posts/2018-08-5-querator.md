@@ -3,7 +3,6 @@ layout: post
 title:  "A Dystopian Social Graph"
 category: UX & Process
 color: navy
-mainImage: /assets/img/projects/buzz-msg/buzz-msg-screens.jpg
 ---
 
 >Thus begins our dystopian nightmare.  

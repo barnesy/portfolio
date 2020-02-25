@@ -54,7 +54,7 @@ Innately curious and extremely driven creator with 12 years of experience, and a
 
 #### Design Tech Lead at CallRail
 ##### (Dec 2018 – Present)  
-I was hired to build out a development team for CallRail's marketing website and supporting technologies. Over the first year we focused on replacing the existing Wordpress website that had become bloated and overgrown with a streamlined modern framework. During my time at CallRail I hired and organized a highly functioning team of developers/designers, re-architected the entire marketing tech stack and data pipeline, and developed a pattern library to speed up the publishing and deployment of online content. 
+I was hired to build out a development team for CallRail's marketing website and supporting technologies. Over the first year we focused on replacing the existing Wordpress website that had become bloated and overgrown with a streamlined modern framework. During my time at CallRail I hired and organized a highly functioning team of developers/designers, re-architected the entire marketing tech stack and data pipeline, and developed a pattern library to speed up the publishing and deployment of online content.
 
 #### CTO/CEO at 4x4 Studios  
 ##### (2017 – Present)  
@@ -86,3 +86,5 @@ I started taking small freelance projects in 2006. These were mostly local busin
 - Envisioning the future of tech.
 - Spending hours in VR.
 - Building drones.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O4B7zQ586J0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

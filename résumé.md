@@ -5,69 +5,45 @@ title: Resume
 
 # Chris Barnes
 
-Innately curious and extremely driven creator with 12 years of experience, and an unusual combination of talent in both creative design and complex programming. Relationship-oriented team leader. Lover of art and technology.  
+I’ve been leading teams to create web-based and native software for over a decade. My core strengths, including fluency in multiple code languages, dexterity in design principles and typography, come from an extensive background in design and development. I enjoy approaching a product from a holistic perspective, end to end. High craft and creative environments with my teams are paramount.  
 [chris@barnesy.me](mailto:chris@barnesy.me) /  [www.barnesy.me](http://barnesy.me)
 
-## UX Design
-- Creating User Flows
-- Prototyping with Paper and Code
-- Connecting UX Stories  
-  to Development
-- Strong Research Skills
-- Rapid Prototyping
-
-## Management
-- Creating and Prioritizing  
-  Tasks Between Teams
-- Unblocking Teammates from  
-  Difficult Tasks
-- Collaborating Design and  
-  Development Goals
-- Coordinating Pivots  
-  in the Product
-- Fostering and Assessing   
-  Team Strengths
-- Creating a Culture of  
-  Collaboration and Respect
-
-## Development
-- iOS/Swift
-- Javascript
-- HTML
-- SCSS
-- Ruby on Rails
-- NodeJS
-- Postgres
-- MySQL
-- NoSQL
-- Circle CI/Fastlane
-- Heroku/AWS
-
-## Art
-- Drawing/Painting
-- Typography
-- Photoshop
-- Sketch
-- Illustrator
 
 ## Professional Experience  
 
 #### Design Tech Lead at CallRail
-##### (Dec 2018 – Present)  
-I was hired to build out a development team for CallRail's marketing website and supporting technologies. Over the first year we focused on replacing the existing Wordpress website that had become bloated and overgrown with a streamlined modern framework. During my time at CallRail I hired and organized a highly functioning team of developers/designers, re-architected the entire marketing tech stack and data pipeline, and developed a pattern library to speed up the publishing and deployment of online content.
+##### (Dec 2018 – June 2020)
+Managed a technical and creative team to replace an existing WordPress marketing website with a modern framework. This included:
 
-#### CTO/CEO at 4x4 Studios  
-##### (2017 – Present)  
-I started 4x4 to create a reading platform for families. The focus of 4x4 Studios is on family technology. We recently launched version 1.0 of our product on the App Store, which was featured by Apple in the "New Apps We Love" category.
+- Increasing page performance by 40%
+- Increasing deployment times by a factor of 3
+- Creating a pattern library to scale page creation
+- Implementing said pattern library to create consistent design across multiple platforms
+- Integrating content management systems
+- Architecting a framework to deliver performant web pages
+- Fixing data flow issues CallRail struggled with for years
+- Collaborating with multiple departments to build a fully integrated self-serve system
+
+Although my team at CallRail was small, our accomplishments were many. Namely, the deployment of a new framework that increased work efficiencies while maintaining the integrity of CallRail’s existing workflows.
+
+#### Partner at 4x4 Studios  
+##### (2017 – 2018)  
+4x4 began with the intention of providing mobile educational tools for families. Version 1.0 of our product was featured in Apple’s AppStore under “New Apps We Love” category. This included:
+
+- A secure family network
+- A publishing platform for providing creative content
+- Tools for families to manage access
+- A secure notification system
+- A rich and intuitive user experience that served young and elderly users alike
 
 
-#### CEO, Full Stack Engineer, UX Designer at DANIEL  
-##### (Nov 2010 – Present)  
+#### Partner at DANIEL
+##### (Nov 2010 – 2017)  
 I created a client services business with a team of five Full-Stack Developers and two Designers. We built technology for Atlanta based startups and creative agencies such as Mohawk Flooring, IHG and Caterpillar. I had the privilege of helping 4 developers start their careers at DANIEL from scratch. Our beautiful babies went on to work at such companies as Razorfish, NCR, Deloitte and other creative agencies. Some started companies and became successful freelancers.
 
 #### Senior Full-Stack Developer at The Supergroup
 ##### (2008 – 2010)  
-I lead development on projects for Disney, Weather.com, and Kimberly Clark among others. One project won the once coveted “Favorite Website Award,” and was nominated for a Webby.  
+I lead development on projects for Disney, Weather.com, and Kimberly Clark among others. One project won the once coveted “Favorite Website Award,” and was nominated for a Webby. 
 
 
 #### Front End Developer at LogicBomb Media  

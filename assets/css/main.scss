@@ -48,8 +48,8 @@ body {
   &.page{
 
     h1{
-      color: white;
-      -webkit-animation:colorchange 90s infinite alternate;
+      color: black;
+      // -webkit-animation:colorchange 90s infinite alternate;
     }
 
     @-webkit-keyframes colorchange {
@@ -108,6 +108,9 @@ body {
 
       a{
         font-size: 0.8em;
+        font-family: Menlo, monospace;
+        color: black;
+        text-decoration: underline;
       }
     }
 

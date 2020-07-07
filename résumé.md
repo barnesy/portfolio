@@ -5,7 +5,7 @@ title: Resume
 
 # Chris Barnes
 
-I’ve been leading teams to create web-based and native software for over a decade. My core strengths, including fluency in multiple code languages, dexterity in design principles and typography, come from an extensive background in design and development. I enjoy approaching a product from a holistic perspective, end to end. High craft and creative environments with my teams are paramount.  
+I’ve been leading teams to create web-based and native software for over a decade. My core strengths include fluency in multiple code languages, dexterity in design principles, typography, and team leadership. I have an extensive background in design and development, and I enjoy approaching a product from a holistic perspective, end to end. High craft and creative environments with my teams are paramount.  
 [chris@barnesy.me](mailto:chris@barnesy.me) /  [www.barnesy.me](http://barnesy.me)
 
 
@@ -23,12 +23,13 @@ Managed a technical and creative team to replace an existing WordPress marketing
 - Architecting a framework to deliver performant web pages
 - Fixing data flow issues CallRail struggled with for years
 - Collaborating with multiple departments to build a fully integrated self-serve system
+- Built a development team including scouting, hiring, and managing
 
-Although my team at CallRail was small, our accomplishments were many. Namely, the deployment of a new framework that increased work efficiencies while maintaining the integrity of CallRail’s existing workflows.
+The team I built and lead deployed a new framework that increased work efficiencies while maintaining the integrity of CallRail’s existing workflows.
 
 #### Partner at 4x4 Studios  
-##### (2017 – 2018)  
-4x4 began with the intention of providing mobile educational tools for families. Version 1.0 of our product was featured in Apple’s AppStore under “New Apps We Love” category. This included:
+##### (2017 – 2019)  
+4x4 began with the intention of providing mobile educational tools for families. It started with an app I created called Let's Read. Version 1.0 of the app was featured in Apple’s AppStore under the “New Apps We Love” category. This included:
 
 - A secure family network
 - A publishing platform for providing creative content
@@ -39,11 +40,11 @@ Although my team at CallRail was small, our accomplishments were many. Namely, t
 
 #### Partner at DANIEL
 ##### (Nov 2010 – 2017)  
-I created a client services business with a team of five Full-Stack Developers and two Designers. We built technology for Atlanta based startups and creative agencies such as Mohawk Flooring, IHG and Caterpillar. I had the privilege of helping 4 developers start their careers at DANIEL from scratch. Our beautiful babies went on to work at such companies as Razorfish, NCR, Deloitte and other creative agencies. Some started companies and became successful freelancers.
+I created a client services business with a team of five Full-Stack Developers and two Designers. We built technology for Atlanta based startups and creative agencies such as Mohawk Flooring, IHG, and Caterpillar. I had the privilege of helping 4 developers start their careers at DANIEL from scratch. Our beautiful babies went on to work at such companies as Razorfish, NCR, Deloitte and other creative agencies. Some started companies and became successful freelancers.
 
 #### Senior Full-Stack Developer at The Supergroup
 ##### (2008 – 2010)  
-I lead development on projects for Disney, Weather.com, and Kimberly Clark among others. One project won the once coveted “Favorite Website Award,” and was nominated for a Webby.
+I lead development on projects for Disney, Weather.com, and Kimberly Clark, among others. One project won the once coveted “Favorite Website Award,” and was nominated for a Webby.
 
 
 #### Front End Developer at LogicBomb Media  
@@ -53,7 +54,7 @@ I worked on Flash projects when it was the premier platform for the web...in oth
 
 #### Freelance Web Developer  
 ##### (2006 – 2008)  
-I started taking small freelance projects in 2006. These were mostly local businesses. I created a portfolio of about 6 projects that paved the way for me to work in Atlanta.
+I started taking small freelance projects in 2006. These were mostly for local businesses. I created a portfolio of about 6 projects that paved the way for me to work in Atlanta.
 
 
 #### Hobbies

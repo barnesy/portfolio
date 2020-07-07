@@ -10,7 +10,6 @@ title: Chris Barnes
 {% endfor %}
 
 ## Projects
-- [Lets Read](http://letsreadapp.com)
 - [SoderList](https://itunes.apple.com/us/app/soderlist-app/id1236165434?mt=8)
 - [LVL Cam](/lvlcam)
 - [Kanga](/kanga)

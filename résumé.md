@@ -43,7 +43,7 @@ I created a client services business with a team of five Full-Stack Developers a
 
 #### Senior Full-Stack Developer at The Supergroup
 ##### (2008 – 2010)  
-I lead development on projects for Disney, Weather.com, and Kimberly Clark among others. One project won the once coveted “Favorite Website Award,” and was nominated for a Webby. 
+I lead development on projects for Disney, Weather.com, and Kimberly Clark among others. One project won the once coveted “Favorite Website Award,” and was nominated for a Webby.
 
 
 #### Front End Developer at LogicBomb Media  
@@ -63,4 +63,5 @@ I started taking small freelance projects in 2006. These were mostly local busin
 - Spending hours in VR.
 - Building drones.
 
+## A moment of zen
 <iframe width="560" height="315" src="https://www.youtube.com/embed/O4B7zQ586J0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

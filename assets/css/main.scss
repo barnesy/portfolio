@@ -227,9 +227,8 @@ h4 {
 ul {
   font-weight: normal;
   text-decoration: none;
-  list-style: disc;
   padding: 0;
-  padding-left: 1.1rem;
+  list-style: none;
   line-height: 2em;
   font-size: 1.25em;
   color: black;
@@ -253,6 +252,11 @@ ul {
       display: none;
     }
   }
+}
+
+.page ul {
+  list-style: disc;
+  padding-left: 1.1rem;
 }
 
 a{

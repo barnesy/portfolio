@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A Dystopian Social Graph"
-category: UX & Process
+category: Process
 color: navy
 ---
 

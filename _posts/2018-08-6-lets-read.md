@@ -4,7 +4,7 @@ title:  "A Family Network"
 category: Process
 ---
 
-> Building a secure robust network is challenging and fun. Here is some of the visual thinking that went into making [Let's Read](https://letsreadapp.com).
+> Building a secure robust network is challenging and fun. Here is some of the visual thinking that went into making Let's Read.
 
 ![alt text](/assets/img/projects/lets-read/lets-read-accounts.png)
 

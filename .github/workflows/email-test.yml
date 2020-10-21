@@ -33,6 +33,7 @@ jobs:
           echo test, and deploy your project!
           
       - name: SendGrid
+        uses: peter-evans/sendgrid-action@v1
         env: 
           SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
           SCRIPT_FILEPATH: ./scripts/email-sending-script.js

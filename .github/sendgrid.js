@@ -5,7 +5,7 @@ sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 const msg = {
     to: 'chris@barnesy.me',
-    from: 'bot@barnesy.me',
+    from: 'chris@barnesy.me',
     subject: 'Email via Github Actions',
     text: 'Email bot says hello.',
     html: 'Email bot says hello.',

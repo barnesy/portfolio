@@ -1,0 +1,87 @@
+---
+layout: landing
+title: Chris Barnes
+---
+
+{% for category in site.categories %}
+
+<div class="pattern">
+  <div class="copy">
+    <div class="hed hed--large">{{ category[0] }}</div>
+  </div>
+</div>
+<div class="card-group pattern">
+
+  {% for post in category[1] %}
+    <a href="{{post.url}}" class="card card--large">
+      <div class="card--featured">
+        <img src="{{post.image}}"/>
+      </div>
+      <div class="card--content">
+        <p class="label">asdf</p>
+        <p class="hed">{{post.title}}</p>
+      </div>
+    </a>
+  {% endfor %}
+
+</div>
+
+{% endfor %}
+
+<div class="pattern">
+
+  <div class="copy">
+    <div class="hed hed--large">Projects</div>
+  </div>
+
+</div>
+
+<div class="card-group pattern">
+
+  <a href="https://itunes.apple.com/us/app/soderlist-app/id1236165434?mt=8" class="card">
+    <div class="card--featured">
+      <img src="/assets/img/projects/soderlist/soderlist.png"/>
+    </div>
+    <div class="card--content">
+      <p class="label">A yearly list app</p>
+      <p class="hed">Soderlist</p>
+    </div>
+  </a>
+
+  <a href="/lvlcam" class="card card--mega">
+    <div class="card--featured">
+      <img src="/assets/img/projects/lvlcam/lvlcam-top.jpg"/>
+    </div>
+    <div class="card--content">
+      <p class="label">An app for lvl shots</p>
+      <p class="hed">LVL Cam</p>
+    </div>
+  </a>
+
+  <a href="/kanga" class="card card--large">
+    <div class="card--featured">
+      <img src="/assets/img/projects/kanga/kanga-top.jpg"/>
+    </div>
+    <div class="card--content">
+      <p class="label">Crowd-sourced local shipping</p>
+      <p class="hed">Kanga</p>
+    </div>
+  </a>
+
+  <a href="/scraffle" class="card">
+    <div class="card--featured">
+      <img src="/assets/img/projects/scraffle/scraffle-jackpot.jpg"/>
+    </div>
+    <div class="card--content">
+      <p class="label">A daily deal app, scratcher style</p>
+      <p class="hed">Scraffle</p>
+    </div>
+  </a>
+
+</div>
+
+<!-- Info
+- [Résumé](/résumé)
+- [LinkedIn](https://www.linkedin.com/in/iambarnesy/)
+- [Instagram](http://instagram.com/iambarnesy)
+- [Email](mailto:chris@barnesy.me) -->

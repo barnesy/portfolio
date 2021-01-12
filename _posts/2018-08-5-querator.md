@@ -3,6 +3,7 @@ layout: post
 title:  "A Dystopian Social Graph"
 category: Process
 color: navy
+image: "/assets/img/projects/querator/querator-slides-21.jpg"
 ---
 
 >Thus begins our dystopian nightmare.  

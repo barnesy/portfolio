@@ -2,6 +2,7 @@
 layout: post
 title:  "A Family Network"
 category: Process
+image: "/assets/img/projects/lets-read/lets-read-screens.jpg"
 ---
 
 > Building a secure robust network is challenging and fun. Here is some of the visual thinking that went into making Let's Read.

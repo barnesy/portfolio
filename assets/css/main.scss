@@ -13,13 +13,13 @@ p {
 }
 
 .back-btn {
-  position: fixed;
-  font-family: Handsy;
-  font-size: 5em;
-  line-height: 1em;
   left: 0px;
   bottom: 0px;
-  min-width: 60px;
+  color: black;
+  font-size: 4em;
+  position: fixed;
+  min-width: 5rem;
+  line-height: 1em;
   text-align: center;
 
   @media (min-width: 800px) {

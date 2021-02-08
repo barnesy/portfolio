@@ -70,7 +70,9 @@ title: Chris Barnes
           <div class="description">
             <p v-if="spellInfo.desc" v-for="paragraph in spellInfo.desc">((paragraph))</p>
           </div>
-          <p v-if="spellInfo.damage">((spellInfo.damage.damage_at_character_level))</p>
+          <p v-if="spellInfo.damage">
+            <span class="damage" v-for="(key, value) in spellInfo.damage.damage_at_character_level">((key)) <sup> lvl ((value)) </sup> </span>
+          </p>
           <p v-if="spellInfo.damage">((spellInfo.damage.damage_type.name))</p>
         </div>
         </div>
@@ -166,6 +168,10 @@ title: Chris Barnes
   .card .description {
     max-height: 40rem;
     overflow-y: scroll;
+  }
+
+  .card .damage {
+    padding-right: 2rem;
   }
 
   .card p {

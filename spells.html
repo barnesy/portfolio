@@ -35,6 +35,20 @@ title: Chris Barnes
         type: Object
       }
     },
+    computed: {
+      damageType: function () {
+        if(this.spellInfo && this.spellInfo.damage) {
+          return this.spellInfo.damage.damage_type.index + " dark"
+        }
+        return ""
+      },
+      contentLength: function (){
+        if(this.spellInfo && this.spellInfo.desc) {
+          if(this.spellInfo.desc.length > 4) return "card--mega"
+        }
+        return "card--large"
+      }
+    },
     mounted () {
       axios
         .get('https://www.dnd5eapi.co' + this.spell.url)
@@ -48,13 +62,17 @@ title: Chris Barnes
         .finally(() => this.loading = false)
     },
     template: `
-      <div class="card card--large">
+      <div class="card card--large" v-bind:class="damageType">
         <div class="card--content">
-        <p class="label"><span v-if="spellInfo.range">((spellInfo.range))</span> - (<span v-if="spellInfo.duration">((spellInfo.duration))</span>) - level <span v-if="spellInfo.level">((spellInfo.level))</span></p>
-        <p class="hed">((spell.name))</p>
-        <p class="label material" v-if="spellInfo.material">((spellInfo.material))</p>
-        <p class="description" v-if="spellInfo.desc">((spellInfo.desc))</p>
-        <p v-if="spellInfo.damage">((spellInfo.damage.damage_at_character_level))</p>
+          <p class="label info"><span v-if="spellInfo.range">((spellInfo.range))</span> - (<span v-if="spellInfo.duration">((spellInfo.duration))</span>) - level <span v-if="spellInfo.level">((spellInfo.level))</span></p>
+          <p class="hed" v-if="spellInfo.name">((spellInfo.name))</p>
+          <p class="label material" v-if="spellInfo.material">((spellInfo.material))</p>
+          <div class="description">
+            <p v-if="spellInfo.desc" v-for="paragraph in spellInfo.desc">((paragraph))</p>
+          </div>
+          <p v-if="spellInfo.damage">((spellInfo.damage.damage_at_character_level))</p>
+          <p v-if="spellInfo.damage">((spellInfo.damage.damage_type.name))</p>
+        </div>
         </div>
       </div>
     `
@@ -89,6 +107,55 @@ title: Chris Barnes
 <style>
   .container {
     max-width: unset;
+    background-color: rgba(14,14,14,1);
+    background-image: url('/assets/img/skull.png');
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: 5rem;
+  }
+
+  #spells {
+  }
+
+  .card{
+    border-radius: 2rem;
+    background-size: cover;
+    background-position: center;
+    border: 1rem solid black;
+  }
+
+  .card .label.info {
+    margin-top: 1rem;
+  }
+
+  .card.fire {
+    background-image: url('/assets/img/fire.jpg');
+    background-color: red;
+    border: 1rem solid red;
+  }
+
+  .card.fire .card--content {
+    background-color: rgba(257,0,0,0.85);
+  }
+
+  .card.cold {
+    background-image: url('/assets/img/cold.jpg');
+    background-color: blue;
+    border: 1rem solid blue;
+  }
+
+  .card.cold .card--content {
+    background-color: rgba(0,0,200,0.7);
+  }
+
+  .card.force {
+    background-image: url('/assets/img/force.png');
+    background-color: black;
+    border: 1rem solid black;
+  }
+
+  .card.force .card--content {
+    background-color: rgba(0,0,0,0.7);
   }
 
   .card .hed {
@@ -106,4 +173,15 @@ title: Chris Barnes
     line-height: 1.4;
     color: grey;
   }
+
+  @media (max-width: 800px) {
+    .container {
+      padding: 1rem;
+    }
+
+    .card--content {
+      padding: 1.6rem 2rem 2rem;
+    }
+  }
+
 </style>

@@ -7,9 +7,12 @@ title: Chris Barnes
 
   <div v-if="loading">Loading...</div>
 
-  <Card v-for="spell in spells" :spell="spell" :key="level"/>
+  <Card v-for="spell in spells" :spell="spell" :key="spell.index"/>
 
 </div>
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
 
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
@@ -20,14 +23,11 @@ title: Chris Barnes
     delimiters: ["((", "))"],
     data () {
       return {
-        spellInfo: null,
+        spellInfo: {
+          range: null
+        },
         loading: true,
         errored: false
-      }
-    },
-    computed: {
-      level: function () {
-        return this.spellInfo.level
       }
     },
     props: {
@@ -39,7 +39,6 @@ title: Chris Barnes
       axios
         .get('https://www.dnd5eapi.co' + this.spell.url)
         .then(response => {
-          console.log(response.data)
           this.spellInfo = response.data
         })
         .catch(error => {
@@ -51,11 +50,11 @@ title: Chris Barnes
     template: `
       <div class="card card--large">
         <div class="card--content">
-          <p class="label"><span v-if="spellInfo.range">((spellInfo.range))</span> - ((spellInfo.duration))</p>
-          <p class="hed">((spell.name)) - ((spellInfo.level))</p>
-          <p class="label">((spellInfo.material))</p>
-          <p>((spellInfo.desc))</p>
-          <p v-if="spellInfo.damage">((spellInfo.damage.damage_at_character_level))</p>
+        <p class="label"><span v-if="spellInfo.range">((spellInfo.range))</span> - (<span v-if="spellInfo.duration">((spellInfo.duration))</span>) - level <span v-if="spellInfo.level">((spellInfo.level))</span></p>
+        <p class="hed">((spell.name))</p>
+        <p class="label material" v-if="spellInfo.material">((spellInfo.material))</p>
+        <p class="description" v-if="spellInfo.desc">((spellInfo.desc))</p>
+        <p v-if="spellInfo.damage">((spellInfo.damage.damage_at_character_level))</p>
         </div>
       </div>
     `
@@ -86,3 +85,25 @@ title: Chris Barnes
   })
 
 </script>
+
+<style>
+  .container {
+    max-width: unset;
+  }
+
+  .card .hed {
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 0;
+  }
+
+  .card .description {
+    max-height: 40rem;
+    overflow-y: scroll;
+  }
+
+  .card p {
+    font-size: 1.6rem;
+    line-height: 1.4;
+    color: grey;
+  }
+</style>
